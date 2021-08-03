@@ -1,17 +1,17 @@
-<h1>영화소개 모바일전용 웹페이지</h1>
-<h2>환경</h2>
-<ul>
-    <li>html5</li>
-    <li>CSS</li>
-    <li>jquery mobile</li>
-    <li>카카오 API</li>
-</ul>
-<h2>썸네일</h2>
-<img src="https://user-images.githubusercontent.com/83056872/128024702-65863a4e-2e00-4f9e-af5e-d6a5db0078c9.jpg" alt="썸네일" />
+## 영화소개 모바일 전용 웹페이지
 
-<h2>영화소개메뉴에서 구글차트 기능</h2>
-<img src="https://user-images.githubusercontent.com/83056872/128025982-76dc8aad-1536-423c-a3f2-e49c61be97cb.JPG" alt="구글차트" />
-<pre><code>
+### 🖥환경
+- HTML
+- CSS
+- Jquery mobil
+- 카카오 API
+
+### 🖼썸네일
+![02-full](https://user-images.githubusercontent.com/83056872/128024702-65863a4e-2e00-4f9e-af5e-d6a5db0078c9.jpg)
+
+### 영화소개 메뉴에서 구글차트 기능
+![구글차트](https://user-images.githubusercontent.com/83056872/128025982-76dc8aad-1536-423c-a3f2-e49c61be97cb.JPG)
+```html
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
 google.charts.load('current', {'packages':['corechart']});
@@ -38,14 +38,11 @@ function drawChart() {
     chart.draw(data, options);
 }
 </script>
-</code></pre>
+```
 
-<h2>영화관위치에서 카카오 API</h2>
-<ul>
-    <li>카카오 지도 API로 지정된 위치 보여주기</li>
-</ul>
-<img src="https://user-images.githubusercontent.com/83056872/128026197-eaa39243-1dae-45c7-9bdf-414c690a5269.JPG" alt="지도" />
-<pre><code>
+### 영화관위치 메뉴에서 카카오 API
+![지도](https://user-images.githubusercontent.com/83056872/128026197-eaa39243-1dae-45c7-9bdf-414c690a5269.JPG)
+```html
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1b64a4ecf605e8f55bd0b3f1be7b9340"></script>
     <script> 
         $(window).load(function() {
@@ -69,12 +66,14 @@ function drawChart() {
             marker.setMap(map);
         });
     </script>
-</code></pre>
+```
 
-<h2>fotorama를 사용한 이미지 슬라이드</h2>
-<img src="https://user-images.githubusercontent.com/83056872/128027341-4a2b0eca-8fd0-4b48-9fd7-3e6aa2b91cf0.JPG" alt="슬라이드" />
-<pre><code>
+### fotorama를 사용한 이미지 슬라이드
+![슬라이드](https://user-images.githubusercontent.com/83056872/128027341-4a2b0eca-8fd0-4b48-9fd7-3e6aa2b91cf0.JPG)
+```html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-<div data-role="ui-content" class="bg-content"><div class="fotorama" data-nav="thumbs" data-loop="true" data-width="100%" data-autoplay="true"></div></div>
-</code></pre>
+<div data-role="ui-content" class="bg-content">
+    <div class="fotorama" data-nav="thumbs" data-loop="true" data-width="100%" data-autoplay="true"></div>
+</div>
+```

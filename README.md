@@ -3,7 +3,6 @@
 <ul>
     <li>html5</li>
     <li>CSS</li>
-    <li>html5</li>
     <li>jquery mobile</li>
     <li>카카오 API</li>
 </ul>

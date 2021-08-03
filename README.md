@@ -9,7 +9,9 @@
 ### 🖼썸네일
 ![02-full](https://user-images.githubusercontent.com/83056872/128024702-65863a4e-2e00-4f9e-af5e-d6a5db0078c9.jpg)
 
-### 영화소개 메뉴에서 구글차트 기능
+### ✍중요
+**영화소개 메뉴에서 구글차트 기능**
+
 ![구글차트](https://user-images.githubusercontent.com/83056872/128025982-76dc8aad-1536-423c-a3f2-e49c61be97cb.JPG)
 ```html
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -40,7 +42,8 @@ function drawChart() {
 </script>
 ```
 
-### 영화관위치 메뉴에서 카카오 API
+**영화관위치 메뉴에서 카카오 API**
+
 ![지도](https://user-images.githubusercontent.com/83056872/128026197-eaa39243-1dae-45c7-9bdf-414c690a5269.JPG)
 ```html
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1b64a4ecf605e8f55bd0b3f1be7b9340"></script>
@@ -68,7 +71,8 @@ function drawChart() {
     </script>
 ```
 
-### fotorama를 사용한 이미지 슬라이드
+**fotorama를 사용한 이미지 슬라이드**
+
 ![슬라이드](https://user-images.githubusercontent.com/83056872/128027341-4a2b0eca-8fd0-4b48-9fd7-3e6aa2b91cf0.JPG)
 ```html
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">

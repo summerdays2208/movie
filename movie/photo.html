@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화이미지</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <style>
+        .bg-header{
+            background-color: #d7e259  !important;
+            border-color: olive !important;
+            text-shadow: none !important;
+        }
+        .bg-header h3{
+            color: darkgreen;
+        }
+        .bg-content{
+            background-color: #BCCA6B  !important;
+        }
+        .bg-footer{
+            background-color: #d7e259  !important;
+            border-color: olive !important;
+            text-shadow: none !important;
+        }
+        .bg-footer h3{
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <!-- header ------------------------------------------------------------------------------------------------->
+        <div data-role="header" class="bg-header">
+            <h3>영화이미지</h3>
+            <a href="index.html" rel="external" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="index.html" rel="external" data-icon="back" data-iconpos="notext">Prev</a>
+        </div>
+        <!-- header -->
+        <!-- content ------------------------------------------------------------------------------------------------->
+        <div data-role="ui-content" class="bg-content">
+            <div class="fotorama" data-nav="thumbs" data-loop="true" data-width="100%" data-autoplay="true">
+                <img src="img/pic01.jpg" alt="영화이미지1">
+                <img src="img/pic02.jpg" alt="영화이미지2">
+                <img src="img/pic03.jpg" alt="영화이미지3">
+                <img src="img/pic04.jpg" alt="영화이미지4">
+                <img src="img/pic05.jpg" alt="영화이미지5">
+                <img src="img/pic06.jpg" alt="영화이미지6">
+                <img src="img/pic07.jpg" alt="영화이미지7">
+                <img src="img/pic08.jpg" alt="영화이미지8">
+                <img src="img/pic09.jpg" alt="영화이미지9">
+                <img src="img/pic10.jpg" alt="영화이미지10">
+            </div>
+        </div>
+        <!-- content -->
+        <!-- footer ------------------------------------------------------------------------------------------------->
+        <div data-role="footer" class="bg-footer">
+            <h3>&copy;CGV. All rights reserved.</h3>
+        </div>
+        <!-- footer -->
+    </div>
+</body>
+</html>

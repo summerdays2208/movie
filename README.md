@@ -3,7 +3,7 @@
 ### 🖥환경
 - HTML
 - CSS
-- Jquery mobil
+- jQuery Mobile
 - 카카오 API
 
 ### 🖼썸네일

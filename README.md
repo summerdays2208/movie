@@ -83,4 +83,4 @@ function drawChart() {
 ```
 
 ### 🏷URL
-http://blanc22.dothome.co.kr/movie/
+http://leap22.dothome.co.kr/movie/
